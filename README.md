@@ -61,6 +61,10 @@ What is still young: the Eye holding a conversation, and the light version for p
 
 ## Working on it
 
+For development with coding assistants, start with [AGENTS.md](AGENTS.md) and the [development documentation index](docs/development/index.md). The [WARP development profile](docs/development/project-profile.md) maps the existing documentation and separates this distribution checkout from the source and running system.
+
+The framework provides discovery, experiments, design, **STRICT MODE** implementation, and evidence review. It is a development workflow; adding it does not change the seed or configure workers inside the application. See the [adoption proposal](docs/development/warp-adoption.md) for scope, limitations, and a suggested first task.
+
 Every file begins with a short header that says what it is for, what uses it, and the creator's own words on what it should do. Build from those words, not from a summary of them.
 
 Every change comes with a test, and with a numbered entry in the build log saying what was wrong, what changed, and what was measured.
